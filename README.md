@@ -35,12 +35,11 @@
 ### 🏠 Dashboard (Mark Attendance)  
 ![Dashboard](assets/screenshots/Full_layout.png)
 
-### 🔑 Admin Panel (Register New Person)  
-![Admin Panel](assets/screenshots/admin_panel.png)
-
 ### 📊 Attendance Records (with Filters & Export)  
 ![Attendance Records](assets/screenshots/Attendence_Records.png)
 
+### 🔑 Admin Panel (Register New Person)  
+![Admin Panel](assets/screenshots/admin_panel.png)
 
 ---
 

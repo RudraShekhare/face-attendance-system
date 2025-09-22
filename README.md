@@ -130,7 +130,7 @@ For persistence, connect Google Sheets / PostgreSQL.
 
 ## Author 
 
-## Rudra Shekhare**  
+**Rudra Shekhare** 
 📍 Pune, India  
 🎓 Computer Engineering | VIIT College Pune  
 💼 Aspiring Data Scientist & Machine Learning Engineer  

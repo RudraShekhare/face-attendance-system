@@ -65,23 +65,22 @@ if new_name and new_img:
     person_dir = os.path.join(DATASET_DIR, new_name)
     os.makedirs(person_dir, exist_ok=True)
 
-    file_bytes = np.asarray(bytearray(new_img.read()), dtype=np.uint8)
-    frame = cv2.imdecode(file_bytes, 1)
+    image = Image.open(new_img)
+    frame = np.array(image)  # still available as numpy for DeepFace
     img_path = os.path.join(person_dir, f"{datetime.now().strftime('%Y%m%d_%H%M%S')}.jpg")
-    cv2.imwrite(img_path, frame)
+    image.save(img_path)
     st.sidebar.success(f"📸 Image saved for {new_name}")
+
 
 # --- Mark Attendance Section ---
 st.subheader("📸 Mark Your Attendance")
 img_file = st.camera_input("Take a picture")
 
 if img_file is not None:
-    # Convert to cv2 frame
-    file_bytes = np.asarray(bytearray(img_file.read()), dtype=np.uint8)
-    frame = cv2.imdecode(file_bytes, 1)
-
+    image = Image.open(img_file)
+    frame = np.array(image)
     temp_img_path = "temp.jpg"
-    cv2.imwrite(temp_img_path, frame)
+    image.save(temp_img_path)
 
     try:
         result = DeepFace.find(img_path=temp_img_path, db_path=DATASET_DIR, model_name="VGG-Face")

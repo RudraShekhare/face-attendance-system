@@ -30,6 +30,20 @@
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Dashboard (Mark Attendance)  
+![Dashboard](assets/screenshots/dashboard.png)
+
+### 🔑 Admin Panel (Register New Person)  
+![Admin Panel](assets/screenshots/admin_panel.png)
+
+### 📊 Attendance Records (with Filters & Export)  
+![Attendance Records](assets/screenshots/attendance_table.png)
+
+
+---
+
 
 ## 🛠️ Tech Stack
 

@@ -31,12 +31,6 @@
 - 🐍 Python 3.11
 - 🎥 OpenCV – image handling
 - 😃 face_recognition – face embeddings & recognition
-
---- 
-
-
-🌐 Streamlit – interactive dashboard
-
-🗄️ SQLite – lightweight attendance database
-
-📊 Pandas – data manipulation
+- 🌐 Streamlit – interactive dashboard
+- 🗄️ SQLite – lightweight attendance database
+- 📊 Pandas – data manipulation

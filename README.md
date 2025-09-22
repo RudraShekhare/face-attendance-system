@@ -34,7 +34,6 @@
 
 ### 🏠 Dashboard (Mark Attendance)  
 ![Dashboard](assets/screenshots/Full_layout.png)
-![Dashboard](assets/screenshots/Mark_attendence.png)
 
 ### 🔑 Admin Panel (Register New Person)  
 ![Admin Panel](assets/screenshots/admin_panel.png)

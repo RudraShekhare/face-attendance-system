@@ -33,13 +33,14 @@
 ## 📸 Screenshots
 
 ### 🏠 Dashboard (Mark Attendance)  
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](assets/screenshots/Full_layout.png)
+![Dashboard](assets/screenshots/Mark_attendence.png)
 
 ### 🔑 Admin Panel (Register New Person)  
 ![Admin Panel](assets/screenshots/admin_panel.png)
 
 ### 📊 Attendance Records (with Filters & Export)  
-![Attendance Records](assets/screenshots/attendance_table.png)
+![Attendance Records](assets/screenshots/Attendence_Records.png)
 
 
 ---

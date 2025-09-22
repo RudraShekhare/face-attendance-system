@@ -121,6 +121,6 @@ For persistence, connect Google Sheets / PostgreSQL.
 ---
 
 ## 📜 License
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 This project is for educational purposes.
 Feel free to fork, improve, and extend.

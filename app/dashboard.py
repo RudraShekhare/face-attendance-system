@@ -1,7 +1,7 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
-import cv2
+from PIL import Image
 import numpy as np
 import os
 from datetime import datetime
